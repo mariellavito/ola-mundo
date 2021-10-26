@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body div {
+    background-color: black;
+    font: bold 3rem 'Montserrat';
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    /* Definir a cor do fundo */
+    background: linear-gradient(to left, red, blue);
+
+    /* Fazer o power clip */
+    -webkit-background-clip: text;
+
+    /* Deixar o texto transparente */
+    -webkit-text-fill-color: transparent;
+
+
+
+}
