@@ -2,28 +2,39 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background: url('slate-texture-background.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    color: white;
+    
+}
 
 body div {
-    background-color: black;
-    font: bold 3rem 'Montserrat';
-    color: white;
     width: 100vw;
-    height: 100vh;
+    height: 90%;
+    font: bold 3rem 'Montserrat';
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-h1 {
-    /* Definir a cor do fundo */
-    background: linear-gradient(to left, red, blue);
-
-    /* Fazer o power clip */
+h1:hover {
+    background: linear-gradient(to left, #FF7D7D, #F4DD7D, #A8CF45);
     -webkit-background-clip: text;
+    color: transparent;
 
-    /* Deixar o texto transparente */
-    -webkit-text-fill-color: transparent;
+}
 
+footer {
+    border-top: 2px dashed white;
+    font: normal 1rem 'Montserrat';
+    text-align: center;
+    padding-top: 1.5rem;
+}
 
-
+footer a {
+    color: white;
+    text-decoration: none;
 }
