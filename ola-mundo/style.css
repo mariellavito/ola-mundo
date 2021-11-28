@@ -7,17 +7,22 @@ body {
     background-size: cover;
     height: 100vh; 
     color: white;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
 body div {
     width: 100vw;
     height: 90%;
-    font: bold 3rem 'Montserrat';
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+h1 {
+    font-size: clamp(48px, 6vw, 100px);
+
 }
 
 h1:hover {
@@ -29,9 +34,12 @@ h1:hover {
 
 footer {
     border-top: 2px dashed white;
-    font: normal 1rem 'Montserrat';
     text-align: center;
     padding-top: 1.5rem;
+}
+
+footer p {
+    font-size: clamp(16px, 1.5vw, 30px);
 }
 
 footer a {
